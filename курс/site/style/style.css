@@ -1,0 +1,119 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 1000px;
+    background-image: url("../img/bg_fon_menu.png");
+    background-position: center;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.header_continer{
+    width: 50%;
+
+}
+.container{
+    border-bottom:2px solid #000 ;
+}
+.nav_continer_txt{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.nav_continer_txt ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.nav_continer_txt li a{
+    font-family: 'Mulish';
+    font-weight: 500;
+    font-size:24px;
+}
+
+@media screen and (max-width: 1750px ){
+    .nav_continer_txt li a{
+        font-family: 'Mulish';
+        font-weight: 500;
+        font-size:16px;
+    }
+    .header_continer{
+        width: 50%;
+    
+    }
+}
+@media screen and (max-width: 1250px ){
+    .nav_continer_txt li a{
+        font-family: 'Mulish';
+        font-weight: 500;
+        font-size:16px;
+    }
+    .header_continer{
+        width: 70%;
+    
+    }
+}
+@media screen and (max-width: 850px ){
+    .nav_continer_txt li a{
+        font-family: 'Mulish';
+        font-weight: 500;
+        font-size:16px;
+    }
+    .header_continer{
+        width: 80%;
+    
+    }
+}
+
+@media screen and (max-width: 700px ){
+    .nav_continer_txt li a{
+        font-family: 'Mulish';
+        font-weight: 500;
+        font-size:14px;
+    }
+    .header_continer{
+        width: 80%;
+    
+    }
+}
+@media screen and (max-width: 650px ){
+    .nav_continer_txt li a{
+        font-family: 'Mulish';
+        font-weight: 500;
+        font-size:14px;
+    }
+    .header_continer{
+        width: 95%;
+    
+    }
+}
+@media screen and (max-width: 500px ){
+    .nav_continer_txt li a{
+        font-family: 'Mulish';
+        font-weight: 500;
+        font-size:12px;
+    }
+    .header_continer{
+        width: 95%;
+    
+    }
+}
