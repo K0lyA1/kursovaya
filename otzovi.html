@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otsovi</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo.svg">
+</head>
+<body  class="login_rega_bg">
+    <!-- header -->
+    <div class="header_wrap">
+                 <!-- heder_top -->
+                 <div class="top_header_continer">
+                    <div class="nav_bar_top">
+                        <div class="nav_continet_top">
+                            <div class="logo"><a href="index.html"><img src="./img/logo.svg" alt="logo"></a></div>
+                        <div class="massengers">
+                            <div class="mes_img">
+                                <a href="#"><img src="./img/ok.png" class="mess_img"  alt="Ok"></a>
+                                <a href="#"><img src="./img/tg.png" class="mess_img"  alt="TG"></a>
+                                <a href="#"><img src="./img/vk.png" class="mess_img"  alt="VK"></a>
+                            </div>
+                        </div>
+                        <div class="adress_mail">
+                            <p>Email - secretary@buzgb1.ru</p>
+                            <p>Адрес - г. Вологда, Советский проспект 94</p>
+                        </div>
+                        <div class="phones">
+                            <p>приемная главного врача - (8172) 75-01-23</p>
+                            <p>Справочная служба - (8172) 75-01-23</p>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    <div class="nav_bar_down">
+                        <div class="btn_nav_hdr">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Больница
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                  <li><a class="dropdown-item" href="otzovi.html">Отзывы</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <nav class="nav_bar_header">
+                            <ul>
+                                <li class="li_header"><a href="./online.html" class="header_nav_butt" >Онлайн запись</a></li>
+                                <li class="li_header"><a href="./price_list.html" class="header_nav_butt" >Платные услуги</a></li>
+                                <li class="li_header" id="raga"><a href="./login.html" class="header_nav_butt" >Вход</a>|<a href="./register.html" class="header_nav_butt" >Регистрация</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- heder_top -->
+    </div>
+   
+
+
+
+       <!-- header -->
+        <div class="otzovi_top_txt">
+            <h5 id="hpyat">Отзыв от: Ивана</h5>
+            <div  class="otziv_clienta">
+                <div class="content_otzov_klienta">
+                    <div class="slider_otzov_klienta">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./img/korupia.png" class="d-block w-100" alt="slider">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./img/virus.png" class="d-block w-100" alt="slider">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+
+
+
+                    <div class="txt_otzov_klienta">
+                        <p class="otziv_name1">Отзыв: №9728136</p>
+                        <div class="comment">
+                            <p class="otziv_name1">Комментраий:</p>
+                            <p class="otziv_name2">Все очень понравилось врачи супер! Прилагаю фото их работы.</p>
+                        </div>
+                        <div class="polezn_ili_net">
+                            <p class="otziv_name1">Был ли отзыв полезен?</p>
+                            <form method="POST">
+                                <input class="offer_btn_a" type="button" value="Да"><input class="offer_btn_a" type="button" value="Нет">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+
+    <!-- slider s otzovami -->
+    <div class="otzovi_top_txt">
+        <h5>Отзывы о нас</h5>
+    </div>
+    <div class="slider_otzovi_contner"> 
+        <div class="slider_wrap_otzovi">
+              <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- slide -->
+                <div class="swiper-slide">
+                    <p class="name_otzov">Валера</p><p class="otzov">Вы супер!!!!!!!!!!!</p>
+                    <label class="otziv_btn">
+                        <a href="#1232131" class="offer_btn_a">Подробнее</a>
+                    </label>
+                </div>
+                    <!-- slide -->
+                                <!-- slide -->
+                <div class="swiper-slide">
+                    <p class="name_otzov">Валера</p><p class="otzov">Вы супер!!!!!!!!!!!</p>
+                    <label class="otziv_btn">
+                        <a href="#1232131" class="offer_btn_a">Подробнее</a>
+                    </label>
+                </div>
+                    <!-- slide -->
+                                <!-- slide -->
+                <div class="swiper-slide">
+                    <p class="name_otzov">Валера</p><p class="otzov">Вы супер!!!!!!!!!!!</p>
+                    <label class="otziv_btn">
+                        <a href="#1232131" class="offer_btn_a">Подробнее</a>
+                    </label>
+                </div>
+                    <!-- slide -->
+                                <!-- slide -->
+                <div class="swiper-slide">
+                    <p class="name_otzov">Валера</p><p class="otzov">Вы супер!!!!!!!!!!!</p>
+                    <label class="otziv_btn">
+                        <a href="#1232131" class="offer_btn_a">Подробнее</a>
+                    </label>
+                </div>
+                    <!-- slide -->
+                                <!-- slide -->
+                <div class="swiper-slide">
+                    <p class="name_otzov">Валера</p><p class="otzov">Вы супер!!!!!!!!!!!</p>
+                    <label class="otziv_btn">
+                        <a href="#1232131" class="offer_btn_a">Подробнее</a>
+                    </label>
+                </div>
+                    <!-- slide -->
+                                <!-- slide -->
+                <div class="swiper-slide">
+                    <p class="name_otzov">Валера</p><p class="otzov">Вы супер!!!!!!!!!!!</p>
+                    <label class="otziv_btn">
+                        <a href="#1232131" class="offer_btn_a">Подробнее</a>
+                    </label>
+                </div>
+                    <!-- slide -->
+                                <!-- slide -->
+                <div class="swiper-slide">
+                    <p class="name_otzov">Валера</p><p class="otzov">Вы супер!!!!!!!!!!!</p>
+                    <label class="otziv_btn">
+                        <a href="#1232131" class="offer_btn_a">Подробнее</a>
+                    </label>
+                </div>
+                    <!-- slide -->
+                                <!-- slide -->
+                <div class="swiper-slide">
+                    <p class="name_otzov">Валера</p><p class="otzov">Вы супер!!!!!!!!!!!</p>
+                    <label class="otziv_btn">
+                        <a href="#1232131" class="offer_btn_a">Подробнее</a>
+                    </label>
+                </div>
+                    <!-- slide -->
+                                <!-- slide -->
+                <div class="swiper-slide">
+                    <p class="name_otzov">Валера</p><p class="otzov">Вы супер!!!!!!!!!!!</p>
+                    <label class="otziv_btn">
+                        <a href="#1232131" class="offer_btn_a">Подробнее</a>
+                    </label>
+                </div>
+                    <!-- slide -->
+                                <!-- slide -->
+                <div class="swiper-slide">
+                    <p class="name_otzov">Валера</p><p class="otzov">Вы супер!!!!!!!!!!!</p>
+                    <label class="otziv_btn">
+                        <a href="#1232131" class="offer_btn_a">Подробнее</a>
+                    </label>
+                </div>
+                    <!-- slide -->
+                                <!-- slide -->
+                <div class="swiper-slide">
+                    <p class="name_otzov">Валера</p><p class="otzov">Вы супер!!!!!!!!!!!</p>
+                    <label class="otziv_btn">
+                        <a href="#1232131" class="offer_btn_a">Подробнее</a>
+                    </label>
+                </div>
+                    <!-- slide -->
+                                <!-- slide -->
+                <div class="swiper-slide">
+                    <p class="name_otzov">Валера</p><p class="otzov">Вы супер!!!!!!!!!!!</p>
+                    <label class="otziv_btn">
+                        <a href="#1232131" class="offer_btn_a">Подробнее</a>
+                    </label>
+                </div>
+                    <!-- slide -->
+                                <!-- slide -->
+                <div class="swiper-slide">
+                    <p class="name_otzov">Валера</p><p class="otzov">Вы супер!!!!!!!!!!!</p>
+                    <label class="otziv_btn">
+                        <a href="#1232131" class="offer_btn_a">Подробнее</a>
+                    </label>
+                </div>
+                    <!-- slide -->
+                </div>
+                <div class="swiper-pagination"></div>
+                <script>
+                    var swiper = new Swiper(".mySwiper", {
+                      slidesPerView: 3,
+                      grid: {
+                        rows: 2,
+                      },
+                      spaceBetween: 20,
+                      pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                      },
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+    <!-- slider s otzovami -->
+
+
+
+
+<!-- оставтеотзывв -->
+    <div class="otzovi_blok">
+        <div class="blok_wraper_otzovi">
+            <div class="blok_txt_left">
+                <h5>Оставте Отзыв!</h5>
+                <form action="POST" class="form_otziv">
+                    <input class="name_i" type="text" name="name" maxlength="30" placeholder="Имя">
+                    <input class="email_i" type="email" name="email" maxlength="50" placeholder="Почта">
+                    <input class="comm_i" type="text" name="coment"maxlength="500"  placeholder="Ваш отзыв!">
+                    <label class="input-file">
+                        <input type="file" name="file">
+                        <span class="input-file-btn">Выберите файл</span>           
+                        <span class="input-file-text">Максимум 10мб</span>
+                    </label>
+                    <label class="btn_s">
+                        <input type="submit" class="btn_ss" name="btn" >
+                    </label>
+                </form>
+            </div>
+            <div class="blok_img_richt"><img src="./img/nok.svg" alt="otzov"></div>
+        </div>
+    </div>
+   
+
+<!-- оставтеотзывв -->
+
+
+<div class="gap_otzovi"></div>
+
+
+<!-- подвал -->
+<footer>
+      <!-- heder_top -->
+      <div class="top_header_continer">
+        <div class="nav_bar_top">
+            <div class="nav_continet_top">
+                <div class="logo"><a href="index.html"><img src="./img/logo.svg" alt="logo"></a></div>
+            <div class="massengers">
+                <div class="mes_img">
+                    <a href="#"><img src="./img/ok.png" class="mess_img"  alt="Ok"></a>
+                    <a href="#"><img src="./img/tg.png" class="mess_img"  alt="TG"></a>
+                    <a href="#"><img src="./img/vk.png" class="mess_img"  alt="VK"></a>
+                </div>
+            </div>
+            <div class="adress_mail">
+                <p>Email - secretary@buzgb1.ru</p>
+                <p>Адрес - г. Вологда, Советский проспект 94</p>
+            </div>
+            <div class="phones">
+                <p>приемная главного врача - (8172) 75-01-23</p>
+                <p>Справочная служба - (8172) 75-01-23</p>
+            </div>
+            </div>
+            
+        </div>
+        <div class="nav_bar_down">
+            <div class="btn_nav_hdr">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Больница
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="otzovi.html">Отзывы</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="nav_bar_header">
+                <ul>
+                    <li class="li_header"><a href="./online.html" class="header_nav_butt" >Онлайн запись</a></li>
+                    <li class="li_header"><a href="./price_list.html" class="header_nav_butt" >Платные услуги</a></li>
+                    <li class="li_header" id="raga"><a href="./login.html" class="header_nav_butt" >Вход</a>|<a href="./register.html" class="header_nav_butt" >Регистрация</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- heder_top -->
+</footer>
+<!-- подвал -->
+
+
+
+
+  <!-- Swiper JS -->
+
+  <!-- Initialize Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

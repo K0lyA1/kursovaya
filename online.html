@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onlineZapis</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo.svg">
+</head>
+<body  class="login_rega_bg">
+    <div class="header_wrap">
+       <!-- heder_top -->
+       <div class="top_header_continer">
+        <div class="nav_bar_top">
+            <div class="nav_continet_top">
+                <div class="logo"><a href="./index.html"><img src="./img/logo.svg" alt="logo"></a></div>
+            <div class="massengers">
+                <div class="mes_img">
+                    <a href="#"><img src="./img/ok.png" class="mess_img"  alt="Ok"></a>
+                    <a href="#"><img src="./img/tg.png" class="mess_img"  alt="TG"></a>
+                    <a href="#"><img src="./img/vk.png" class="mess_img"  alt="VK"></a>
+                </div>
+            </div>
+            <div class="adress_mail">
+                <p>Email - secretary@buzgb1.ru</p>
+                <p>Адрес - г. Вологда, Советский проспект 94</p>
+            </div>
+            <div class="phones">
+                <p>приемная главного врача - (8172) 75-01-23</p>
+                <p>Справочная служба - (8172) 75-01-23</p>
+            </div>
+            </div>
+            
+        </div>
+        <div class="nav_bar_down">
+            <div class="btn_nav_hdr">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Больница
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="otzovi.html">Отзывы</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="nav_bar_header">
+                <ul>
+                    <li class="li_header"><a href="./online.html" class="header_nav_butt" >Онлайн запись</a></li>
+                    <li class="li_header"><a href="./price_list.html" class="header_nav_butt" >Платные услуги</a></li>
+                    <li class="li_header" id="raga"><a href="./login.html" class="header_nav_butt" >Вход</a>|<a href="./register.html" class="header_nav_butt" >Регистрация</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- heder_top -->
+
+    </div>
+
+   
+        
+
+
+
+
+<!-- zapis -->
+    <div class="onlaine_zapis_continer">
+        <p class="p_zapis">Онлайн запись</p>
+        <div class="online_zapis">
+            <form class="uslugi_form" method="POST">
+                <div class="select_usluga">
+                    <p class="pointer">Выбрите услугу</p>
+                    <select name="usluga" class="usluga" id="123423455">
+                        <option  class="usluga_name" value="usluga_name" id="1" selected="selected">Анализ на ВИЧ</option>
+                        <option value="usluga_name" id="2" >Анализ на гепатит с,b</option>
+                        <option value="usluga_name" id="3" >Массаж</option>
+                        <option value="usluga_name" id="4" >Узи сердца</option>
+                        <option value="usluga_name" id="5" >Экг с нагрузкой</option>
+                        <option value="usluga_name" id="6" >Экг без нагрузки</option>
+                    </select>
+                </div>
+                <div class="select_usluga"> 
+                    Укажите информацию о себе
+                    <input type="text" name="polis"  class="uslyga_input" placeholder="Введите имя" required>
+                    <input type="text" name="polis"  class="uslyga_input" placeholder="Введите фамилию" required>
+                    <input type="text" name="polis"  class="uslyga_input" placeholder="Введите отчество если имеется">
+                    <input type="text" name="polis"  class="uslyga_input" placeholder="введите свой полис..">
+                    <input type="text" name="email" class="uslyga_input" placeholder="Укажите свой Email..">
+                    <input type="text"  name="phone" class="uslyga_input" placeholder="Номер телефона.." maxlength="12" required>
+                </div>
+                <div class="select_usluga"> 
+                    выбирите дату
+                    <input type="date" name="polis"  class="uslyga_input" placeholder="Введите дату" required>
+                    выбирите время
+                    <div class="vremya">
+                        <button type="button" class="btn btn-primary">14:00</button>
+                        <button type="button" class="btn btn-primary">14:30</button>
+                        <button type="button" class="btn btn-primary">15:00</button>
+                        <button type="button" class="btn btn-primary">15:30</button>
+                        <button type="button" class="btn btn-primary">16:00</button>
+                        <button type="button" class="btn btn-primary">16:30</button>
+                        <button type="button" class="btn btn-primary">17:00</button>
+                        <button type="button" class="btn btn-primary">17:30</button>
+                    </div>
+                </div>
+                <div class="select_usluga"> 
+                    <input type="submit"  class="btn btn-success" name="btnsab" value="Записаться">
+                </div>
+            </form>
+        </div>
+    </div>
+<!-- zapis -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<!-- подвал -->
+<footer>
+      <!-- heder_top -->
+      <div class="top_header_continer">
+        <div class="nav_bar_top">
+            <div class="nav_continet_top">
+                <div class="logo"><a href="index.html"><img src="./img/logo.svg" alt="logo"></a></div>
+            <div class="massengers">
+                <div class="mes_img">
+                    <a href="#"><img src="./img/ok.png" class="mess_img"  alt="Ok"></a>
+                    <a href="#"><img src="./img/tg.png" class="mess_img"  alt="TG"></a>
+                    <a href="#"><img src="./img/vk.png" class="mess_img"  alt="VK"></a>
+                </div>
+            </div>
+            <div class="adress_mail">
+                <p>Email - secretary@buzgb1.ru</p>
+                <p>Адрес - г. Вологда, Советский проспект 94</p>
+            </div>
+            <div class="phones">
+                <p>приемная главного врача - (8172) 75-01-23</p>
+                <p>Справочная служба - (8172) 75-01-23</p>
+            </div>
+            </div>
+            
+        </div>
+        <div class="nav_bar_down">
+            <div class="btn_nav_hdr">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Больница
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="otzovi.html">Отзывы</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="nav_bar_header">
+                <ul>
+                    <li class="li_header"><a href="./online.html" class="header_nav_butt" >Онлайн запись</a></li>
+                    <li class="li_header"><a href="./price_list.html" class="header_nav_butt" >Платные услуги</a></li>
+                    <li class="li_header" id="raga"><a href="./login.html" class="header_nav_butt" >Вход</a>|<a href="./register.html" class="header_nav_butt" >Регистрация</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- heder_top -->
+</footer>
+<!-- подвал -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
